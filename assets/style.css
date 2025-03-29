@@ -1,0 +1,45 @@
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #f3c7c7;
+}
+.container {
+  background: rgb(253, 238, 228);
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 300px;
+  height: auto;
+  text-align: center;
+}
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px 0;
+}
+button {
+  background: #5e7da0;
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+button:disabled {
+  background: grey;
+  cursor: not-allowed;
+}
+#noTasksMessage {
+  color: grey;
+  margin-top: 10px;
+}
